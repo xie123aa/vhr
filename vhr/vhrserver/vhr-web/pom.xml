@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.javaboy</groupId>
     <artifactId>vhr-web</artifactId>
-<!--    <version>0.0.1-SNAPSHOT</version>-->
+    <version>0.0.1-SNAPSHOT</version>
     <name>vhr-web</name>
     <description>Demo project for Spring Boot</description>
 
@@ -50,6 +50,7 @@
     </dependencies>
 
     <build>
+        <finalName>vhr</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
